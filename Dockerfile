@@ -11,6 +11,8 @@ tar \
 unzip \
 git \
 g++ \
+make \
+cmake \
 python3 \
 python3-venv \
 python3-pip \
@@ -18,7 +20,8 @@ ripgrep \
 fd-find \
 libfuse2 \
 bat \
-htop 
+htop \
+unzip
 
 # Create User
 RUN useradd apigeon -m
